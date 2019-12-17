@@ -13,10 +13,9 @@ The report that accompanies this project can be downloaded at the following URL:
 
 ## Jupyter Notebooks
 
-Two Jupyter notebooks were created and used in this project. They are titled `Data_Analysis.ipynb` and 
-`Data_Processing.ipynb.` The first notebook is responsible for cleaning and merging the raw data. It generates
-a CSV file titled `epa_noaa.csv` which is the final dataset. The second notebook is responsible for building
-modeling the data via linear regression and visualizing the models. These notebooks can used in any Python 3 
+Two Jupyter notebooks were created and used in this project. They are titled `Data_Processing.ipynb` and `Data_Analysis.ipynb`. The first notebook is responsible for cleaning and merging the raw data. It generates
+a CSV file titled `epa_noaa.csv` which is the dataset used in the regression modeling. The second notebook is 
+responsible for building and visualizing the regression models. These notebooks can used in any Python 3 
 environment with the following packages installed:
 
 imutils
@@ -27,6 +26,8 @@ matplotlib
 seaborn
 scikit-learn
 scipy
+
+All packages can be installed via pip.
 
 
 ## NOAA Daily Weather Data
